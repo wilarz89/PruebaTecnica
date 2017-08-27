@@ -5,34 +5,36 @@
   <title>  BIENVENIDO A APLICACION SOLUCION  </title>
   <link rel="icon"  href="" />
 </head>
+<h1>
 
+    BIENVENIDO APLICACION SOLUCIÓN
+</h1>
 <body>
-<div class="wrapper">
   <div id="header">
     <a href="">Inicio </a>
   </div>
 
-  <p></p>
+  <p>
 
-  <div id="main-nav">
-  </div>
-  <div id="content">
-    <div  id="snaptarget" class="ui-widget-header">
-      {% block sidebar %}
+  </p>
+<div>
+    <form>
+   <textarea rows="20" cols="50" placeholder="Insert your code here!!!">
 
-      {% endblock %}
-    </div>
-    {% block body %}
+</textarea>
 
-    {% endblock %}
-  </div>
+</form>
+<form action="/action_page.php" method="get" id="form1">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+</form>
 
+<button type="submit" form="form1" value="Submit">Submit</button>
 
-  <div class="push"></div>
 </div>
-<div class="footer">
+
   <p>Copyright (c) 2016</p>
   <a href="">Salir</a>
-</div>
+
 </body>
 </html>
