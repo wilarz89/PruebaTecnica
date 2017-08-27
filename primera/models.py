@@ -5,7 +5,4 @@ class Modelo(models.Model):
     entrada = models.CharField(max_length=10000)
     salida = models.CharField(max_length=10000)
     fechaCreacion = models.DateTimeField(auto_now_add=True)
-    usuario = models.CharField(max_length=45)
 
-    def __str__(self):
-        return self.nombre

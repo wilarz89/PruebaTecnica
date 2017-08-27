@@ -3,6 +3,7 @@ from primera.views import index
 
 
 urlpatterns = [
-    url(r'^$', index)
+    url(r'^$', index),
+    url(r'^primera$',)
 ]
 

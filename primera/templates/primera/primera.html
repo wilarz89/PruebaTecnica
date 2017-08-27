@@ -10,24 +10,13 @@
     BIENVENIDO APLICACION SOLUCIÓN
 </h1>
 <body>
-  <div id="header">
-    <a href="">Inicio </a>
-  </div>
+ <div>
 
-  <p>
+<form action="{% url '' %}" method="POST" id="form1">
 
-  </p>
-<div>
-
-<form action="/action_page.php" method="get" id="form1">
-
-   <textarea rows="20" cols="50" placeholder="Insert your code here!!!">
+   <textarea rows="20" cols="50" placeholder="Insert your code here!!!" name="entrada" id="entrada">
 
 </textarea>
-
-
-  Username <input type="text" name="fname"><br>
-
 </form>
 
 <button type="submit" form="form1" value="Submit">Submit</button>
