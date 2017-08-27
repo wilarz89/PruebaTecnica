@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+
+
+
+
+  <title>  BIENVENIDO A APLICACION SOLUCION  </title>
+  <link rel="icon" type="image/x-icon" href="" />
+</head>
+
+<body>
+<div class="wrapper">
+  <div id="header">
+    <a href="">Inicio </a>
+  </div>
+
+  <p></p>
+
+  <div id="main-nav">
+  </div>
+  <div id="content">
+    <div  id="snaptarget" class="ui-widget-header">
+      {% block sidebar %}
+
+      {% endblock %}
+    </div>
+    {% block body %}
+
+    {% endblock %}
+  </div>
+
+
+  <div class="push"></div>
+</div>
+<div class="footer">
+  <p>Copyright (c) 2016</p>
+  <a href="">Salir</a>
+</div>
+</body>
+</html>
