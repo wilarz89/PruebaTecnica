@@ -17,19 +17,19 @@
 
           <tr>
             <td>
-               {% Modelo.entrada %}
+                {{ input }}
 
             </td>
 
             <td>
-             {% Modelo.salida %}
+            {% for salida in output %}
+                {{ salida }} <br>
+            {% endfor %}
             </td>
 
 
           </tbody>
-
-
-      </table>
+    </table>
 
 </body>
 </html>
