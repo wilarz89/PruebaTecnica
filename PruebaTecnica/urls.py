@@ -21,5 +21,5 @@ from primera import urls as primeraurls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-url(r'^primera/', include(primeraurls)),
+url(r'^primera/', include(primeraurls,namespace='primera')),
 ]
